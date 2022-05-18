@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const Home = React.lazy(() => import('./views/Home'))
+const Homepage = React.lazy(() => import("./views/Homepage"));
 
 const routes = [
-    { path: '/', name: 'Landing', exact: true, component: Home}
-]
+  { path: "/", name: "Homepage", exact: true, component: Homepage },
+];
 
-export default routes
+export default routes;
